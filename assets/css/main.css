@@ -1,0 +1,96 @@
+/* Fonts */
+@font-face {
+    font-family: 'Monarque-LightItalic';
+    src: url(../fonts/Monarque-LightItalic.eot);
+    src: url(../fonts/Monarque-LightItalic.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/Monarque-LightItalic.otf) format('otf'),
+         url(../fonts/Monarque-LightItalic.svg#Monarque-LightItalic) format('svg'),
+         url(../fonts/Monarque-LightItalic.ttf) format('truetype'),
+         url(../fonts/Monarque-LightItalic.woff) format('woff'),
+         url(../fonts/Monarque-LightItalic.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Borna-Regular';
+    src: url(../fonts/Borna-Regular.eot);
+    src: url(../fonts/Borna-Regular.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/Borna-Regular.otf) format('otf'),
+         url(../fonts/Borna-Regular.svg#Borna-Regular) format('svg'),
+         url(../fonts/Borna-Regular.ttf) format('truetype'),
+         url(../fonts/Borna-Regular.woff) format('woff'),
+         url(../fonts/Borna-Regular.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Borna-Bold';
+    src: url(../fonts/Borna-Bold.eot);
+    src: url(../fonts/Borna-Bold.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/Borna-Bold.otf) format('otf'),
+         url(../fonts/Borna-Bold.svg#Borna-Bold) format('svg'),
+         url(../fonts/Borna-Bold.ttf) format('truetype'),
+         url(../fonts/Borna-Bold.woff) format('woff'),
+         url(../fonts/Borna-Bold.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Borna-Medium';
+    src: url(../fonts/Borna-Medium.eot);
+    src: url(../fonts/Borna-Medium.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/Borna-Medium.otf) format('otf'),
+         url(../fonts/Borna-Medium.svg#Borna-Medium) format('svg'),
+         url(../fonts/Borna-Medium.ttf) format('truetype'),
+         url(../fonts/Borna-Medium.woff) format('woff'),
+         url(../fonts/Borna-Medium.woff2) format('woff2');
+}
+
+/* TailwindCSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    color: #fff;
+    background: linear-gradient(295deg, #0F0C29 -25.87%, #302B63 86.31%);
+    position: relative;
+}
+
+.nuxt-icon svg {
+    width: auto !important;
+    height: auto !important;
+    margin-bottom: 0 !important;
+}
+
+.scroll-animation {
+    animation: scroll 2s linear infinite;
+}
+
+@keyframes scroll {
+    0% { transform: translateY(0) }
+    50% { transform: translateY(-7px) }
+    100% { transform: translateY(0) }
+}
+
+@layer utilities {
+    
+    .text-extra-lg {
+        font-size: 120px;
+    }
+
+    .text-sm-extra-lg {
+        font-size: 100px;
+    }
+
+    .text-large {
+        font-size: 40px;
+    }
+
+    .primary-gradient {
+        background: radial-gradient(126.35% 173.35% at 110.5% -14.47%, #FC466B 1.92%, rgba(63, 94, 251, 0.37) 82.29%);
+    }
+
+    .radial-gradient {
+        background: radial-gradient(140.5% 198.55% at 124.13% -36.03%, #FC466B 1.92%, rgba(63, 94, 251, 0.37) 85.05%);
+        mix-blend-mode: lighten;
+    }
+
+}
