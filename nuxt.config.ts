@@ -3,6 +3,8 @@ export default defineNuxtConfig({
   modules: [
     'nuxt-icons',
     '@nuxt/image',
+    'vue3-carousel-nuxt',
+    'nuxt-aos',
   ],
   app: {
     head: {
@@ -18,4 +20,10 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  aos: {
+    disable: 'phone',
+    duration: 1000,
+    once: true,
+  },
+  //ssr: false,
 })

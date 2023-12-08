@@ -54,6 +54,10 @@ body {
     position: relative;
 }
 
+html , body {
+    overflow-x: hidden;
+}
+
 .nuxt-icon svg {
     width: auto !important;
     height: auto !important;
@@ -68,6 +72,18 @@ body {
     0% { transform: translateY(0) }
     50% { transform: translateY(-7px) }
     100% { transform: translateY(0) }
+}
+
+#teamCarousel .carousel__slide--active {
+    transform: translateY(-70px);
+}
+
+#teamCarousel .carousel__viewport {
+    padding-top: 70px;
+}
+
+#teamCarousel {
+    text-align: left;
 }
 
 @layer utilities {
@@ -93,4 +109,56 @@ body {
         mix-blend-mode: lighten;
     }
 
+    .ml-50 {
+        margin-left: -50%;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .text-extra-lg {
+        font-size: 68px;
+    }
+
+    .text-sm-extra-lg {
+        font-size: 58px;
+    }
+
+    #teamCarousel .carousel__viewport {
+        padding-top: 0;
+    }
+
+    #teamCarousel .carousel__track {
+        width: auto !important;
+        transform: none !important;
+        flex-direction: column !important;
+        margin: 0 !important;
+        gap: 56px;
+    }
+
+    #teamCarousel .carousel__slide.carousel__slide--clone {
+        display: none;
+    }
+
+    #teamCarousel .carousel__slide--active {
+        transform: translateY(0);
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+    .text-extra-lg {
+        font-size: 48px;
+    }
+
+    .text-sm-extra-lg {
+        font-size: 36px;
+    }
+
+    .text-large {
+        font-size: 24px;
+    }
+    
 }
