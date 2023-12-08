@@ -20,7 +20,7 @@
 
         <div class="max-w-[320px] mx-auto flex flex-col items-center lg:items-start mt-4 lg:mt-0 mb-6 lg:mb-0 lg:text-left lg:ml-auto lg:mr-8 lg:-translate-y-24">
             <p class="mb-8 leading-7 text-base sm:text-lg text-center lg:text-left" data-aos="fade-up" data-aos-delay="600">A 360° coaching program tailored to empower startup founders in their business, body, mind, and network.</p>
-            <nuxt-link to="/" data-aos="fade-up" data-aos-delay="700" class="group/btn px-5 sm:px-[30px] py-3.5 sm:py-5 bg-primary-light rounded-[36px] text-[15px] sm:text-lg !leading-4 uppercase text-white font-medium flex items-center transition-all">
+            <nuxt-link to="https://calendly.com/dienst-basti/coaching-intro-call" target="_blank" data-aos="fade-up" data-aos-delay="700" class="group/btn px-5 sm:px-[30px] py-3.5 sm:py-5 bg-primary-light rounded-[36px] text-[15px] sm:text-lg !leading-4 uppercase text-white font-medium flex items-center transition-all">
                 Book call now
                 <nuxt-icon name="arrow-right" class="ml-2.5 transition-all duration-500 group-hover/btn:translate-x-2" filled />
             </nuxt-link>
@@ -265,7 +265,7 @@
                 </h2>
                 
                 <div class="relative flex" data-aos="fade-up" data-aos-delay="300">
-                    <nuxt-link to="/" class="group/btn px-5 sm:px-[30px] py-3.5 sm:py-5 mx-auto bg-primary-light rounded-[36px] text-[15px] sm:text-lg !leading-4 uppercase text-white font-medium flex items-center transition-all">
+                    <nuxt-link to="https://calendly.com/dienst-basti/coaching-intro-call" target="_blank" class="group/btn px-5 sm:px-[30px] py-3.5 sm:py-5 mx-auto bg-primary-light rounded-[36px] text-[15px] sm:text-lg !leading-4 uppercase text-white font-medium flex items-center transition-all">
                         Book Discovery Call now
                         <nuxt-icon name="arrow-right" class="ml-2.5 transition-all duration-500 group-hover/btn:translate-x-2" filled />
                     </nuxt-link>
@@ -512,7 +512,7 @@
                 </h2>
                 
                 <div class="flex flex-col justify-center">
-                    <nuxt-link to="/" class="group/btn px-5 sm:px-[30px] py-3.5 sm:py-5 bg-primary-light rounded-[36px] text-[15px] sm:text-lg !leading-4 uppercase text-white font-medium flex items-center transition-all mx-auto" data-aos="fade-up" data-aos-delay="300">
+                    <nuxt-link to="https://calendly.com/dienst-basti/coaching-intro-call" target="_blank" class="group/btn px-5 sm:px-[30px] py-3.5 sm:py-5 bg-primary-light rounded-[36px] text-[15px] sm:text-lg !leading-4 uppercase text-white font-medium flex items-center transition-all mx-auto" data-aos="fade-up" data-aos-delay="300">
                         Book Discovery Call now
                         <nuxt-icon name="arrow-right" class="ml-2.5 transition-all duration-500 group-hover/btn:translate-x-2" filled />
                     </nuxt-link>
