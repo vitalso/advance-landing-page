@@ -44,7 +44,7 @@
         </div>
 
         <!-- Inro light -->
-        <NuxtImg src="images/intro-light.svg" width="1160" class="absolute top-0 right-0 sm:right-[20%] -z-10 pointer-events-none" data-aos="fade-up-right" data-aos-delay="400" />
+        <NuxtImg src="images/intro-light-animated.svg" width="1160" class="absolute top-0 right-0 sm:right-[20%] -z-10 pointer-events-none" data-aos="fade-up-right" data-aos-delay="400" />
     </section>
 
     <section class="container mx-auto px-5">
