@@ -51,7 +51,7 @@
         <div class="xs:mx-10 flex flex-col lg:flex-row gap-8 lg:gap-32 mt-32 md:mt-52">
             <h3 class="uppercase leading-7 text-[22px] md:text-2xl" data-aos="fade-right" data-aos-delay="200">ABOUT <br class="hidden lg:block"> ADVANCE</h3>
 
-            <p class="text-large leading-relaxed max-w-[840px] ml-auto" data-aos="fade-left" data-aos-delay="400">Like top athletes who rely on a team of coaches to perform at their peak, Advance empowers startup entrepreneurs via a unique and comprehensive program to perform at their highest level.</p>
+            <p class="text-large leading-relaxed max-w-[840px] ml-auto" data-aos="fade-left" data-aos-delay="400">Feeling the weight of startup pressures? Advance is your ally and secret weapon, helping you to transform overwhelming obstacles into stepping stones for success and growth.</p>
         </div>
 
         <div class="py-20 md:py-36 md:mx-20 flex flex-wrap lg:flex-nowrap justify-center gap-12 md:gap-[76px]">
@@ -201,7 +201,7 @@
                 </ul>
 
                 <div class="text-base md:text-lg lg:max-w-[480px] lg:ml-auto">
-                    <p class="leading-7 mb-6">Feeling stressed, overwhelmed, or constantly running into similar pitfalls? From blind spots to deep-rooted patterns, the startup journey often brings up unresolved issues within ourselves.</p>
+                    <p class="leading-7 mb-6">Feeling stressed, overwhelmed, or constantly running into similar pitfalls? From deep-rooted patterns to hidden blind spots, the startup journey often brings up unresolved issues within ourselves.</p>
                     <p class="leading-7">"Mind Mastery" helps you shed light on these unseen forces. A comprehensive assessment unveils hidden hindrances and paves the way for a personalised program to help you move beyond mere coping to genuine growth. Transforming stress into strength and ambiguity into acute clarity.</p>
                 </div>
             </div>
@@ -478,7 +478,7 @@
         </div>
     </section>
 
-    <section class="my-[100px]">
+    <section class="my-[100px] hidden">
         <div class="container mx-auto px-5">
 
             <div class="xs:mx-10 relative py-[30px] lg:py-[60px] px-5 lg:px-[120px] rounded-lg overflow-hidden">
