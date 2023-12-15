@@ -35,11 +35,11 @@
             <div class="flex items-center gap-2 sm:gap-8 justify-center lg:justify-between flex-wrap lg:flex-nowrap">
                 <span class="uppercase w-full text-center lg:text-left lg:w-auto">Supporting founders backed by</span>
 
-                <NuxtImg src="images/sequoia.svg" width="162" height="50" class="transition-all hover:scale-110" />
-                <NuxtImg src="images/y-combinator.svg" width="166" height="50" class="transition-all hover:scale-110" />
-                <NuxtImg src="images/gv.svg" width="83" height="50" class="transition-all hover:scale-110" />
-                <NuxtImg src="images/headline.svg" width="138" height="50" class="transition-all hover:scale-110" />
-                <NuxtImg src="images/d-capital.svg" width="146" height="50" class="transition-all hover:scale-110" />
+                <NuxtImg src="images/sequoia.svg" width="162" height="50" />
+                <NuxtImg src="images/y-combinator.svg" width="166" height="50" />
+                <NuxtImg src="images/gv.svg" width="83" height="50" />
+                <NuxtImg src="images/headline.svg" width="138" />
+                <NuxtImg src="images/d-capital.svg" width="146" />
             </div>
         </div>
 
@@ -121,7 +121,7 @@
         </div>
 
         <div>
-            <NuxtImg src="images/light-1-4.svg" width="922" class="absolute top-1/3 sm:top-1/2 lg:top-0 -z-10 pointer-events-none left-0 sm:left-1/2 sm:-ml-[420px]" data-aos="fade-up" data-aos-delay="700" />
+            <NuxtImg src="images/light-1-4.svg" width="922" class="absolute top-0 -z-10 pointer-events-none left-0 sm:left-1/2 sm:-ml-[420px]" data-aos="fade-up" data-aos-delay="700" />
         </div>
     </section>
 
@@ -165,7 +165,7 @@
 
         </div>
 
-        <NuxtImg src="images/light-2-4.svg" width="1700" class="absolute top-1/2 lg:top-8 -z-10 pointer-events-none left-0 sm:left-1/2 sm:-ml-[650px]" data-aos="fade-up" data-aos-delay="700" />
+        <NuxtImg src="images/light-2-4.svg" width="1700" class="absolute top-8 -z-10 pointer-events-none left-0 lg:left-1/2 lg:-ml-[650px]" data-aos="fade-up" data-aos-delay="700" />
     </section>
 
     <section class="container mx-auto px-5 py-12 lg:py-36 relative">
@@ -208,7 +208,7 @@
 
         </div>
 
-        <NuxtImg src="images/light-3-4.svg" width="1280" class="absolute top-[25%] sm:top-[15%] lg:-top-[45%] -z-10 pointer-events-none left-6 sm:left-14 lg:left-56" data-aos="fade-left" data-aos-delay="1000" />
+        <NuxtImg src="images/light-3-4.svg" width="1280" class="absolute -top-24 sm:top-[15%] lg:-top-[45%] -z-10 pointer-events-none left-6 sm:left-14 lg:left-56" data-aos="fade-left" data-aos-delay="1000" />
     </section>
 
     <section class="container mx-auto px-5 py-12 lg:py-36 relative">
@@ -251,10 +251,10 @@
 
         </div>
 
-        <NuxtImg src="images/light-4-4.svg" width="2200" class="absolute top-1/4 lg:-top-[70%] -z-10 pointer-events-none right-0 sm:-right-8" data-aos="fade-up-right" data-aos-delay="1000" />
+        <NuxtImg src="images/light-4-4.svg" width="2200" class="absolute -top-1/4 lg:-top-[70%] -z-10 pointer-events-none right-0 sm:-right-8" data-aos="fade-up-right" data-aos-delay="1000" />
     </section>
 
-    <section class="py-16 lg:py-52">
+    <section class="pb-16 lg:pb-52">
         <div class="container mx-auto px-5">
 
             <div class="xs:mx-10 rounded-lg py-28 text-center leading-none text-sm-extra-lg relative">
@@ -275,6 +275,25 @@
         </div>
     </section>
 
+    <section class="pb-16 lg:pb-48">
+        <div class="container mx-auto px-5">
+
+            <div class="flex flex-col lg:flex-row gap-8 lg:gap-44 pb-16 lg:pb-40 border-b border-b-white border-opacity-20">
+                <p class="uppercase text-2xl leading-7 flex-grow shrink-0 basis-auto">SIGN UP FOR <br class="hidden lg:block" /> UPDATES</p>
+
+                <div class="lg:mr-32">
+                    <p class="text-large leading-tight">The monthly newsletter for founders <br class="hidden lg:block" />  ready to advance</p>
+
+                    <form action="#" class="mt-14 flex flex-col sm:flex-row items-start gap-4">
+                        <input type="text" placeholder="Enter your email here..." class="border-b border-b-white border-opacity-50 w-full h-[38px] sm:max-w-[410px] bg-transparent outline-none focus:border-opacity-100">
+                        <button type="submit" class="bg-primary-light rounded-[36px] py-2.5 px-[30px] uppercase text-base leading-4">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
     <section class="py-16 lg:py-0">
         <div class="container mx-auto px-5">
 
@@ -288,42 +307,42 @@
                 <div class="flex gap-4 md:gap-0 flex-wrap justify-around xl:justify-between">
                     <div class="text-center max-w-[345px] mb-10 md:mb-20 duration-500 hover:scale-110" data-aos="fade-up" data-aos-delay="300">
                         <div class="mb-4 flex justify-center">
-                            <nuxt-icon name="advance-icon" filled />
+                            <nuxt-icon name="advance-icon-1" filled />
                         </div>
                         <p class="text-lg md:text-xl leading-8"><span class="font-bold font-semibold">Effortlessly navigate</span> through business decisions, with newfound clarity and deep insight</p>
                     </div>
 
                     <div class="text-center max-w-[345px] mb-10 md:mb-20 duration-500 hover:scale-110" data-aos="fade-up" data-aos-delay="300">
                         <div class="mb-4 flex justify-center">
-                            <nuxt-icon name="advance-icon" filled />
+                            <nuxt-icon name="advance-icon-2" filled />
                         </div>
                         <p class="text-lg md:text-xl leading-8">Radiate health and vitality, <span class="font-bold font-semibold">feel energized</span> and at the peak of your game</p>
                     </div>
 
                     <div class="text-center max-w-[345px] mb-10 md:mb-20 duration-500 hover:scale-110" data-aos="fade-up" data-aos-delay="300">
                         <div class="mb-4 flex justify-center">
-                            <nuxt-icon name="advance-icon" filled />
+                            <nuxt-icon name="advance-icon-3" filled />
                         </div>
                         <p class="text-lg md:text-xl leading-8"><span class="font-bold font-semibold">Streamline focus</span> on your core strengths, confidently letting go of non-essentials</p>
                     </div>
 
                     <div class="text-center max-w-[345px] mb-10 md:mb-20 duration-500 hover:scale-110" data-aos="fade-up" data-aos-delay="300">
                         <div class="mb-4 flex justify-center">
-                            <nuxt-icon name="advance-icon" filled />
+                            <nuxt-icon name="advance-icon-4" filled />
                         </div>
                         <p class="text-lg md:text-xl leading-8"><span class="font-bold font-semibold">Thrive</span> within a vibrant founder community, building deep, lasting connections</p>
                     </div>
 
                     <div class="text-center max-w-[345px] mb-10 md:mb-20 duration-500 hover:scale-110" data-aos="fade-up" data-aos-delay="300">
                         <div class="mb-4 flex justify-center">
-                            <nuxt-icon name="advance-icon" filled />
+                            <nuxt-icon name="advance-icon-5" filled />
                         </div>
                         <p class="text-lg md:text-xl leading-8"><span class="font-bold font-semibold">Break barriers</span> and constantly scale new heights, leaving growth plateaus in the dust</p>
                     </div>
 
                     <div class="text-center max-w-[345px] mb-10 md:mb-20 duration-500 hover:scale-110" data-aos="fade-up" data-aos-delay="300">
                         <div class="mb-4 flex justify-center">
-                            <nuxt-icon name="advance-icon" filled />
+                            <nuxt-icon name="advance-icon-6" filled />
                         </div>
                         <p class="text-lg md:text-xl leading-8"><span class="font-bold font-semibold">Collaborate harmoniously</span> with your team, turning conflicts into growth opportunities</p>
                     </div>
@@ -386,14 +405,13 @@
             </div>
 
             <div class="xs:mx-10 mt-[100px] border-t border-t-white border-opacity-20 py-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="flex items-center gap-2 sm:gap-8 justify-center lg:justify-between flex-wrap lg:flex-nowrap">
+                <div class="flex items-center flex-col sm:flex-row gap-2 sm:gap-8 justify-center lg:justify-between flex-wrap lg:flex-nowrap">
                     <span class="uppercase w-full text-center lg:text-left lg:max-w-[330px]">AS APPEARED IN</span>
 
-                    <NuxtImg src="images/sequoia.svg" width="162" height="50" class="transition-all hover:scale-110" />
-                    <NuxtImg src="images/y-combinator.svg" width="166" height="50" class="transition-all hover:scale-110" />
-                    <NuxtImg src="images/gv.svg" width="83" height="50" class="transition-all hover:scale-110" />
-                    <NuxtImg src="images/headline.svg" width="138" height="50" class="transition-all hover:scale-110" />
-                    <NuxtImg src="images/d-capital.svg" width="146" height="50" class="transition-all hover:scale-110" />
+                    <NuxtImg src="images/ds.svg" width="108" height="43" />
+                    <NuxtImg src="images/es.png" width="196" height="26" />
+                    <NuxtImg src="images/forbes.svg" width="128" height="50" />
+                    <NuxtImg src="images/gs.svg" width="213" height="50" />
                 </div>
             </div>
 
@@ -502,7 +520,7 @@
     <!-- FAQ section -->
     <FAQ />
 
-    <section class="py-8 lg:py-52 relative overflow-hidden">
+    <section class="py-8 lg:py-52 mb-52 lg:mb-0 relative overflow-hidden">
         <div class="container mx-auto px-5">
 
             <div class="xs:mx-10 text-center py-28 mb-56 md:mb-0 leading-none text-sm-extra-lg">
@@ -521,7 +539,7 @@
 
         </div>
 
-        <NuxtImg src="images/intro-light.svg" width="1160" class="absolute top-80 md:top-36 right-[20%] -z-10 pointer-events-none" data-aos="fade-up-right" data-aos-delay="400" />
+        <NuxtImg src="images/intro-light.svg" width="1160" class="absolute top-0 md:top-36 right-0 md:right-[20%] -z-10 pointer-events-none" data-aos="fade-up-right" data-aos-delay="400" />
     </section>
 
     <Footer />
