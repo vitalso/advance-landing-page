@@ -30,7 +30,6 @@
         
         <div class="text-base flex gap-10 lg:mt-8">
             <p>©Advance 2023</p>
-            <NuxtLink to="/terms" class="hover:text-primary-light transition-all">Terms & Conditions</NuxtLink>
         </div>
     </footer>
 </template>

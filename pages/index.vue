@@ -364,12 +364,12 @@
                         <div class="carousel__item">
 
                             <div class="relative p-6 lg:p-[60px] lg:h-[550px] flex flex-col justify-between !text-left">
-                                <p class="text-[22px] lg:text-[35px] leading-[140%]" data-aos="fade-up" data-aos-delay="200">“Sebastian has been instrumental in supporting me through the roller coaster of running a company. His thoughtful approach helps center the mind and focus on tactical methods to achieving both my short- and long- term goals.”</p>
+                                <p class="text-[22px] lg:text-[35px] leading-[140%]" data-aos="fade-up" data-aos-delay="200">“Having been a founder himself, Sebastian truly understands the challenges that Startup founders face and has been an incredible asset to me. I can not recommend him highly enough!”</p>
 
                                 <div class="flex flex-col gap-2 lg:gap-0 lg:flex-row items-start lg:items-end mt-10 lg:mt-0" data-aos="fade-right" data-aos-delay="300">
-                                    <NuxtImg src="images/feedback.png" class="w-[120px] lg:w-auto" />
+                                    <NuxtImg src="images/abuzar.jpeg" class="w-[120px] h-[134px] object-cover rounded-lg" />
 
-                                    <p class="text-base lg:text-lg leading-7 lg:ml-12 mb-2"><span class="block font-bold font-semibold">Jared Schwartzentruber, </span> Prefix</p>
+                                    <p class="text-base lg:text-lg leading-7 lg:ml-12 mb-2"><span class="block font-bold font-semibold">Abuzar Royesh, </span> Pastel</p>
                                 </div>
                             </div>
 
@@ -379,12 +379,27 @@
                         <div class="carousel__item">
 
                             <div class="relative p-6 lg:p-[60px] lg:h-[550px] flex flex-col justify-between !text-left">
-                                <p class="text-[22px] lg:text-[35px] leading-[140%]" data-aos="fade-up" data-aos-delay="200">“Sebastian has been instrumental in supporting me through the roller coaster of running a company. His thoughtful approach helps center the mind...”</p>
+                                <p class="text-[22px] lg:text-[35px] leading-[140%]" data-aos="fade-up" data-aos-delay="200">“Sebastian's knack for asking the right questions has consistently led to meaningful reflection, greater self-awareness, and development in my leadership style.”</p>
 
                                 <div class="flex flex-col gap-2 lg:gap-0 lg:flex-row items-start lg:items-end mt-10 lg:mt-0" data-aos="fade-right" data-aos-delay="300">
-                                    <NuxtImg src="images/feedback.png" class="w-[120px] lg:w-auto" />
+                                    <NuxtImg src="images/alex.jpeg" class="w-[120px] h-[134px] object-cover rounded-lg" />
 
-                                    <p class="text-base lg:text-lg leading-7 lg:ml-12 mb-2"><span class="block font-bold font-semibold">Jared Schwartzentruber, </span> Prefix</p>
+                                    <p class="text-base lg:text-lg leading-7 lg:ml-12 mb-2"><span class="block font-bold font-semibold">Alexander Sloan, </span> Motion</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </Slide>
+                    <Slide key="slide">
+                        <div class="carousel__item">
+
+                            <div class="relative p-6 lg:p-[60px] lg:h-[550px] flex flex-col justify-between !text-left">
+                                <p class="text-[22px] lg:text-[35px] leading-[140%]" data-aos="fade-up" data-aos-delay="200">“Sebastian has been instrumental in helping me think through a lot of strategic  decisions for the company and myself. His experience as a founder has led him to come from a point of experience that has been invaluable. Amazing coach!”</p>
+
+                                <div class="flex flex-col gap-2 lg:gap-0 lg:flex-row items-start lg:items-end mt-10 lg:mt-0" data-aos="fade-right" data-aos-delay="300">
+                                    <NuxtImg src="images/behailu.jpeg" class="w-[120px] h-[134px] object-cover rounded-lg" />
+
+                                    <p class="text-base lg:text-lg leading-7 lg:ml-12 mb-2"><span class="block font-bold font-semibold">Behailu Tekletsadik, </span> Archetype</p>
                                 </div>
                             </div>
 
@@ -424,71 +439,35 @@
             <div class="mx-5 xs:mx-10">
 
                 <h2 class="text-center leading-none text-sm-extra-lg mb-24">
-                    <span data-aos="fade-right" data-aos-delay="100" class="block"><span class="block md:-translate-x-24">Team that</span></span>
-                    <span data-aos="fade-left" data-aos-delay="200" class="font-title block">makes you advance</span>
+                    <span data-aos="fade-right" data-aos-delay="100" class="block"><span class="block md:-translate-x-32">The team that</span></span>
+                    <span data-aos="fade-left" data-aos-delay="200" class="font-title block">helps you advance</span>
                 </h2>
 
-                <Carousel ref="teamCarousel" id="teamCarousel" class="mb-16" :itemsToShow="3" :wrapAround="true" :transition="500" :breakpoints="breakpoints">
-                    <Slide key="slide">
-                        <div class="carousel__item">
-                        
-                            <div class="max-w-[360px]">
-                                <div class="rounded-lg overflow-hidden relative">
-                                    <div class="absolute top-0 left-0 w-full h-full radial-gradient"></div>
-                                    <NuxtImg src="images/team-1.png" width="360" />
-                                </div>
-                                <p class="mt-6 lg:mt-8 text-base lg:text-lg lg:leading-9">
-                                    <span class="block mb-4 font-bold font-semibold text-xl lg:text-[22px]">Sebastian Dienst</span>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus est pellentesque elit ullamcorper. Morbi leo urna molestie at elementum eu facilisis sed. Orci sagittis eu volutpat odio facilisis. Quam viverra orci sagittis eu. Cursus mattis molestie a iaculis at erat pellentesque adipiscing. 
-                                </p>
-                            </div>
 
+                <div class="flex gap-16 items-center md:items-start justify-center flex-col md:flex-row mb-16">
+
+                    <div class="max-w-[380px]">
+                        <div class="rounded-lg overflow-hidden relative">
+                            <div class="absolute top-0 left-0 w-full h-full radial-gradient"></div>
+                            <NuxtImg src="images/Seb.png" width="380" height="360" class="object-cover h-full" />
                         </div>
-                    </Slide>
+                        <p class="mt-6 lg:mt-8 text-base lg:text-lg lg:leading-9">
+                            <span class="block mb-4 font-bold font-semibold text-xl lg:text-[22px]">Sebastian Dienst</span>
+                            Sebastian Dienst is the Founder and Head Coach of Advance. Prior to becoming a coach, he co-founded three companies across eCommerce, B2B SaaS, and Fintech. His expertise lies in scaling businesses and fostering self-awareness and inner alignment in leaders. Sebastian is dedicated to empowering leaders towards professional success and authentic personal transformation.
+                        </p>
+                    </div>
 
-                    <Slide key="slide">
-                        <div class="carousel__item">
-                        
-                            <div class="max-w-[360px]">
-                                <div class="rounded-lg overflow-hidden relative">
-                                    <div class="absolute top-0 left-0 w-full h-full radial-gradient"></div>
-                                    <NuxtImg src="images/team-2.png" width="360" />
-                                </div>
-                                <p class="mt-6 lg:mt-8 text-base lg:text-lg lg:leading-9">
-                                    <span class="block mb-4 font-bold font-semibold text-xl lg:text-[22px]">Peter Thiel</span>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus est pellentesque elit ullamcorper. Morbi leo urna molestie at elementum eu facilisis sed. Orci sagittis eu volutpat odio facilisis. Quam viverra orci sagittis eu. Cursus mattis molestie a iaculis at erat pellentesque adipiscing. 
-                                </p>
-                            </div>
-
+                    <div class="max-w-[380px]">
+                        <div class="rounded-lg overflow-hidden relative">
+                            <div class="absolute top-0 left-0 w-full h-full radial-gradient"></div>
+                            <NuxtImg src="images/sophia-w.png" width="380" height="360" class="object-cover h-full" />
                         </div>
-                    </Slide>
+                        <p class="mt-6 lg:mt-8 text-base lg:text-lg lg:leading-9">
+                            <span class="block mb-4 font-bold font-semibold text-xl lg:text-[22px]">Sophia Wachner</span>
+                            Dr. Sophia Wachner's practice in Munich focuses on regeneration and prevention, combining functional, orthomolecular, and nutritional medicine. Her holistic approach includes treatments like nutritional therapy, stress management, and bioidentical hormone therapy. She addresses various health concerns such as exhaustion, digestive issues, autoimmune diseases, and chronic pain.For more details, visit her <NuxtLink to="https://www.sophiawachner.de/" target="_blank" class="text-primary-light">website here</NuxtLink>.
+                        </p>
+                    </div>
 
-                    <Slide key="slide">
-                        <div class="carousel__item">
-                        
-                            <div class="max-w-[360px]">
-                                <div class="rounded-lg overflow-hidden relative">
-                                    <div class="absolute top-0 left-0 w-full h-full radial-gradient"></div>
-                                    <NuxtImg src="images/team-3.png" width="360" />
-                                </div>
-                                <p class="mt-6 lg:mt-8 text-base lg:text-lg lg:leading-9">
-                                    <span class="block mb-4 font-bold font-semibold text-xl lg:text-[22px]">Mark Andressen</span>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus est pellentesque elit ullamcorper. Morbi leo urna molestie at elementum eu facilisis sed. Orci sagittis eu volutpat odio facilisis. Quam viverra orci sagittis eu. Cursus mattis molestie a iaculis at erat pellentesque adipiscing. 
-                                </p>
-                            </div>
-
-                        </div>
-                    </Slide>
-                </Carousel>
-
-                <div class="justify-center gap-20 mb-5 hidden lg:flex"  data-aos="fade-up" data-aos-delay="100">
-                    <button type="button" @click="teamCarousel.prev()" class="rounded-full border w-[64px] h-[64px] border-white border-opacity-20 p-5 flex flex-col justify-center items-center hover:bg-primary-light transition-all">
-                        <nuxt-icon name="arrow-right" class="rotate-180" filled />
-                    </button>
-
-                    <button type="button" @click="teamCarousel.next()" class="rounded-full border w-[64px] h-[64px] border-white border-opacity-20 p-5 flex flex-col justify-center items-center hover:bg-primary-light transition-all">
-                        <nuxt-icon name="arrow-right" filled />
-                    </button>
                 </div>
 
             </div>
@@ -520,7 +499,7 @@
     <!-- FAQ section -->
     <FAQ />
 
-    <section class="py-8 lg:py-52 mb-52 lg:mb-0 relative overflow-hidden">
+    <section class="py-8 md:py-52 mb-52 lg:mb-0 relative overflow-hidden">
         <div class="container mx-auto px-5">
 
             <div class="xs:mx-10 text-center py-28 mb-56 md:mb-0 leading-none text-sm-extra-lg">
@@ -553,22 +532,9 @@ import 'vue3-carousel/dist/carousel.css'
 import { ref } from 'vue';
 
 const feedbackCarousel = ref(null);
-const teamCarousel = ref(null);
 const settings = ref(
     {
         itemsToShow: 1
     }
-)
-
-const breakpoints = ref(
-    {
-      320: {
-        itemsToShow: 1,
-      },
-
-      1024: {
-        itemsToShow: 3,
-      },
-    },
 )
 </script>
