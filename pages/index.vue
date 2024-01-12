@@ -51,7 +51,7 @@
         <div class="xs:mx-10 flex flex-col lg:flex-row gap-8 lg:gap-32 mt-32 md:mt-52">
             <h3 class="uppercase leading-7 text-[22px] md:text-2xl" data-aos="fade-right" data-aos-delay="200">ABOUT <br class="hidden lg:block"> ADVANCE</h3>
 
-            <p class="text-large leading-relaxed max-w-[840px] ml-auto" data-aos="fade-left" data-aos-delay="400">Feeling the weight of startup pressures? Advance is your ally and secret weapon, helping you to transform overwhelming obstacles into stepping stones for success and growth.</p>
+            <p class="text-large leading-relaxed max-w-[840px] ml-auto" data-aos="fade-left" data-aos-delay="400">Feeling the weight of startup pressures? Advance™ is your ally and secret weapon, helping you to transform overwhelming obstacles into stepping stones for success and growth.</p>
         </div>
 
         <div class="py-20 md:py-36 md:mx-20 flex flex-wrap lg:flex-nowrap justify-center gap-12 md:gap-[76px]">
@@ -112,8 +112,8 @@
                 </ul>
 
                 <div class="text-base md:text-lg lg:max-w-[480px] lg:ml-auto">
-                    <p class="leading-7 mb-6">Every startup journey is fraught with unforeseen challenges and self-doubt, where the weight of every business decision bears down heavily. It's a tightrope walk, balancing professional ambition with personal well-being. </p>
-                    <p class="leading-7">Guided Growth offers a sounding board for crucial business decisions, as well as a sparring partner to navigate the complexities of leadership and personal growth. This is coaching redefined – where business acumen and personal mastery converge, turning hurdles into stepping stones.</p>
+                    <p class="leading-7 mb-6">Every startup journey is fraught with unforeseen challenges and self-doubt, where the weight of every business decision bears down heavily. It's a tightrope walk with unique challenges and critical decisions at every step of the way. </p>
+                    <p class="leading-7">Guided Growth offers a sounding board for crucial business decisions, as well as a sparring partner to navigate the complexities of leadership and to enhance your company’s performance. This is coaching redefined – where business acumen and personal mastery converge, turning hurdles into stepping stones.</p>
                 </div>
             </div>
             
@@ -300,7 +300,7 @@
             <div class="md:mx-10">
 
                 <h2 class="text-center leading-none text-sm-extra-lg mb-24">
-                    <span data-aos="fade-right" data-aos-delay="100" class="block"><span class="block md:-translate-x-20">Advance</span></span>
+                    <span data-aos="fade-right" data-aos-delay="100" class="block"><span class="block md:-translate-x-20">Advance™</span></span>
                     <span data-aos="fade-left" data-aos-delay="300" class="block"><span class="font-title block md:translate-x-20">will help you</span></span>
                 </h2>
 
@@ -451,9 +451,9 @@
                             <div class="absolute top-0 left-0 w-full h-full radial-gradient"></div>
                             <NuxtImg src="images/Seb.png" width="380" height="360" class="object-cover h-full" />
                         </div>
-                        <p class="mt-6 lg:mt-8 text-base lg:text-lg lg:leading-9">
+                        <p class="mt-6 lg:mt-8 text-sm lg:text-base leading-6 lg:leading-7">
                             <span class="block mb-4 font-bold font-semibold text-xl lg:text-[22px]">Sebastian Dienst</span>
-                            Sebastian Dienst is the Founder and Head Coach of Advance. Prior to becoming a coach, he co-founded three companies across eCommerce, B2B SaaS, and Fintech. His expertise lies in scaling businesses and fostering self-awareness and inner alignment in leaders. Sebastian is dedicated to empowering leaders towards professional success and authentic personal transformation.
+                            Sebastian Dienst is the Founder and Lead Coach of Advance™. With over 15 years of experience co-founding multiple businesses, Sebastian understands the challenges of entrepreneurship. He brings a unique blend of expertise in scaling companies combined with a deep understanding of personal transformation from studying meditation, shamanism, and Eastern philosophies for more than two decades. Through his coaching programs, Sebastian empowers leaders to breakthrough challenges and activate their highest potential. His transformational approach helps clients authentically pioneer change by connecting with their essence and pioneering change from a place of self-knowledge. Blending analytical and intuitive methods, Sebastian guides individuals to unlock their innate capacities for influential, wholehearted leadership.
                         </p>
                     </div>
 
@@ -462,9 +462,9 @@
                             <div class="absolute top-0 left-0 w-full h-full radial-gradient"></div>
                             <NuxtImg src="images/sophia-w.png" width="380" height="360" class="object-cover h-full" />
                         </div>
-                        <p class="mt-6 lg:mt-8 text-base lg:text-lg lg:leading-9">
+                        <p class="mt-6 lg:mt-8 text-sm lg:text-base leading-6 lg:leading-7">
                             <span class="block mb-4 font-bold font-semibold text-xl lg:text-[22px]">Sophia Wachner</span>
-                            Dr. Sophia Wachner's practice in Munich focuses on regeneration and prevention, combining functional, orthomolecular, and nutritional medicine. Her holistic approach includes treatments like nutritional therapy, stress management, and bioidentical hormone therapy. She addresses various health concerns such as exhaustion, digestive issues, autoimmune diseases, and chronic pain.For more details, visit her <NuxtLink to="https://www.sophiawachner.de/" target="_blank" class="text-primary-light">website here</NuxtLink>.
+                            Dr. Sophia Wachner brings extensive functional and nutritional medicine experience to Advance™ Founders. Through holistic plans supported by modern testing, she helps clients break through well-being challenges and energizes their innate capacity for health. Her approach is focused on preventive medicine through personalized nutrition counseling, micronutrient profiling, stress relief techniques, and herbal or hormone therapies when applicable. Common issues addressed range from fatigue and digestive issues to autoimmune illnesses and chronic pain. Blending analytical assessments with intuitive guidance, Dr. Wachner unlocks greater vitality by addressing metabolic dysfunction and other overlooked contributors to ill-health. More information about her services and specializations can be found at <NuxtLink to="https://www.sophiawachner.de/" target="_blank" class="text-primary-light">www.sophiawachner.de</NuxtLink>.
                         </p>
                     </div>
 
@@ -487,7 +487,7 @@
                     </div>
 
                     <div  data-aos="fade-left" data-aos-delay="100">
-                        <p class="uppercase leading-7 text-2xl mb-4">The Advance Promise</p>
+                        <p class="uppercase leading-7 text-2xl mb-4">The Advance™ Promise</p>
                         <p class="text-lg leading-7">We want you to get results fast. Our goal is to get you a return on your investment within the first 90 days of the program. That way you can reinvest the extra profit in your business to scale faster whilst unlocking more freedom for yourself.</p>
                     </div>
                 </div>

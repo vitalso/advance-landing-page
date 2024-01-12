@@ -29,7 +29,7 @@
         </div>
         
         <div class="text-base flex gap-10 lg:mt-8">
-            <p>©Advance 2023</p>
+            <p>© Advance™ 2024</p>
         </div>
     </footer>
 </template>

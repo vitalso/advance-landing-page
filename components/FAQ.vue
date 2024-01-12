@@ -50,6 +50,7 @@ const faqData = ref([
     { id: 2, open: false, title: 'What kind of commitment is required from participants?' , content: 'We understand the time constraints of startup founders. While the program requires a certain commitment to benefit from and apply the learning in your business and personal life, the specific time commitments can be tailored to individual needs.' },
     { id: 3, open: false, title: 'How do I join Advance?' , content: 'Interested founders can set up a discovery call through our website. The application process includes a brief questionnaire about your startup and goals, followed by a consultation call to ensure our program aligns with your needs.' },
     { id: 4, open: false, title: 'What results can I expect from participating in the program?' , content: 'Participants will see improvements in the areas that they are currently lagging in. Whether that is in specific aspects of leadership skills, having more clarity and confidence in your business positioning and strategy, or experiencing enhanced personal health - Advance will identify and strengthen your unique areas for growth.' },
+    { id: 5, open: false, title: 'What is the cost of Advance? ' , content: 'Pricing depends on your individual needs. Please book a Discovery call to find out more.' },
 ]);
 
 // Toggle FAQ item
