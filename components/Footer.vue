@@ -13,7 +13,7 @@
 
             <div class="text-base lg:text-lg w-1/3 sm:w-auto">
                 <p class="mb-3 leading-7 font-medium">Follow Us</p>
-                <NuxtLink to="/">
+                <NuxtLink to="https://www.linkedin.com/company/101489336/admin/feed/posts/?feedType=following" targey="_blank">
                     <nuxt-icon name="linked-in" filled class="fill-white hover:fill-primary-light transition-all" />
                 </NuxtLink>
             </div>
