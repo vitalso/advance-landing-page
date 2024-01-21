@@ -284,10 +284,12 @@
                 <div class="lg:mr-32">
                     <p class="text-large leading-tight">The monthly newsletter for founders <br class="hidden lg:block" />  ready to advance</p>
 
-                    <form action="#" class="mt-14 flex flex-col sm:flex-row items-start gap-4">
+                    <Subscribe />
+
+                    <!--<form action="#" class="mt-14 flex flex-col sm:flex-row items-start gap-4">
                         <input type="text" placeholder="Enter your email here..." class="border-b border-b-white border-opacity-50 w-full h-[38px] sm:max-w-[410px] bg-transparent outline-none focus:border-opacity-100">
                         <button type="submit" class="bg-primary-light rounded-[36px] py-2.5 px-[30px] uppercase text-base leading-4">Subscribe</button>
-                    </form>
+                    </form>-->
                 </div>
             </div>
 

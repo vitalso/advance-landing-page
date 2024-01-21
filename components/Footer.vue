@@ -21,10 +21,7 @@
             <div class="text-base lg:text-lg w-full max-w-xl my-16 lg:my-0">
                 <p class="mb-3 leading-7 font-medium">Sign up to Advance newsletter</p>
 
-                <form action="#" class="pt-3 flex flex-col items-start sm:flex-row gap-4">
-                    <input type="text" placeholder="Enter your email here..." class="border-b border-b-white border-opacity-50 h-[38px] w-full sm:max-w-[410px] bg-transparent outline-none focus:border-opacity-100">
-                    <button type="submit" class="bg-primary-light rounded-[36px] py-2.5 px-[30px] uppercase text-base leading-4">Subscribe</button>
-                </form>
+                <Subscribe />
             </div>
         </div>
         
