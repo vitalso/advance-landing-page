@@ -455,7 +455,7 @@
                         </div>
                         <p class="mt-6 lg:mt-8 text-sm lg:text-base leading-6 lg:leading-7">
                             <span class="block mb-4 font-bold font-semibold text-xl lg:text-[22px]">Sebastian Dienst</span>
-                            Sebastian Dienst is the Founder and Lead Coach of Advance™. With over 15 years of experience co-founding multiple businesses, Sebastian understands the challenges of entrepreneurship. He brings a unique blend of expertise in scaling companies combined with a deep understanding of personal transformation from studying meditation, shamanism, and Eastern philosophies for more than two decades. Through his coaching programs, Sebastian empowers leaders to breakthrough challenges and activate their highest potential. His transformational approach helps clients authentically pioneer change by connecting with their essence and pioneering change from a place of self-knowledge. Blending analytical and intuitive methods, Sebastian guides individuals to unlock their innate capacities for influential, wholehearted leadership.
+                            Sebastian Dienst is the Founder and Lead Coach of Advance™. With over 15 years of experience co-founding multiple businesses and two decades studying mind-body wisdom traditions, Sebastian brings a unique blend of expertise in supporting founders to breakthrough challenges and to activate their highest potential. His transformational approach helps clients authentically pioneer change by connecting with their essence and pioneering change from a place of self-knowledge. Blending analytical and intuitive methods, Sebastian guides individuals to unlock their innate capacities for influential, wholehearted leadership.
                         </p>
                     </div>
 
@@ -465,8 +465,10 @@
                             <NuxtImg src="images/sophia-w.png" width="380" height="360" class="object-cover h-full" />
                         </div>
                         <p class="mt-6 lg:mt-8 text-sm lg:text-base leading-6 lg:leading-7">
-                            <span class="block mb-4 font-bold font-semibold text-xl lg:text-[22px]">Sophia Wachner</span>
-                            Dr. Sophia Wachner brings extensive functional and nutritional medicine experience to Advance™ Founders. Through holistic plans supported by modern testing, she helps clients break through well-being challenges and energizes their innate capacity for health. Her approach is focused on preventive medicine through personalized nutrition counseling, micronutrient profiling, stress relief techniques, and herbal or hormone therapies when applicable. Common issues addressed range from fatigue and digestive issues to autoimmune illnesses and chronic pain. Blending analytical assessments with intuitive guidance, Dr. Wachner unlocks greater vitality by addressing metabolic dysfunction and other overlooked contributors to ill-health. More information about her services and specializations can be found at <NuxtLink to="https://www.sophiawachner.de/" target="_blank" class="text-primary-light">www.sophiawachner.de</NuxtLink>.
+                            <span class="block mb-4 font-bold font-semibold text-xl lg:text-[22px]">
+                                <NuxtLink to="https://www.sophiawachner.de/" target="_blank" class="underline hover:no-underline">Sophia Wachner</NuxtLink>
+                            </span>
+                            Dr. Sophia Wachner leads a private practice in Munich delivering functional and nutritional medicine. For over two decades, she has supported clients through customized programs integrating lab work, nutrition therapy, herbal remedies and mind-body practices. Dr. Wachner empowers individuals to prevent illness and embrace wellness by addressing the underlying factors behind fatigue, digestive issues, autoimmunity and other common concerns. Her integrative yet results-driven approach has helped many with chronic conditions or fertility challenges find new balance. She blends analytical data with intuition to guide optimized lifestyle strategies for managing disorders and energizing one's innate healing ability.
                         </p>
                     </div>
 
