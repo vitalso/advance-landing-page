@@ -2,6 +2,15 @@
 
     <Head>
       <Title>Advance</Title>
+      <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-8YJM3CVNG7"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-8YJM3CVNG7');
+        </script>
       <Meta name="description" content="Advance Landing page" />
       <Meta name="keywords" content="Advance Landing page" />
     </Head>
@@ -466,9 +475,9 @@
                         </div>
                         <p class="mt-6 lg:mt-8 text-sm lg:text-base leading-6 lg:leading-7">
                             <span class="block mb-4 font-bold font-semibold text-xl lg:text-[22px]">
-                                <NuxtLink to="https://www.sophiawachner.de/" target="_blank" class="underline hover:no-underline">Sophia Wachner</NuxtLink>
+                                Sophia Wachner
                             </span>
-                            Dr. Sophia Wachner leads a private practice in Munich delivering functional and nutritional medicine. For over two decades, she has supported clients through customized programs integrating lab work, nutrition therapy, herbal remedies and mind-body practices. Dr. Wachner empowers individuals to prevent illness and embrace wellness by addressing the underlying factors behind fatigue, digestive issues, autoimmunity and other common concerns. Her integrative yet results-driven approach has helped many with chronic conditions or fertility challenges find new balance. She blends analytical data with intuition to guide optimized lifestyle strategies for managing disorders and energizing one's innate healing ability.
+                            <NuxtLink to="https://www.sophiawachner.de/" target="_blank" class="underline hover:no-underline">Dr. Sophia Wachner</NuxtLink> leads a private practice in Munich focused on functional and nutritional medicine. She supports clients through customized programs integrating lab work, nutrition therapy, herbal remedies and mind-body practices. Dr. Wachner empowers individuals by addressing the underlying factors behind fatigue, digestive issues, autoimmunity and other common concerns. Her integrative yet results-driven approach has helped many entrepreneurs deal with intense stress and to live from a place of greater balance. Blending analytical data with intuition, she empowers clients to realize their highest health and performance potential.
                         </p>
                     </div>
 
